@@ -72,10 +72,10 @@ const Header = ({ showDrop, setShowDrop, mobilNav, setMobilNav }) => {
                 Tripeo
             </span> */}
         </Navbar.Brand>
-        <a className="hover:text-[#13D511] text-lg text-[#ECF7FD] transition-all font-semibold cursor-pointer pr-3 absolute z-50 top-7 right-[11%] md:hidden  translate-y-1/2 " href="https://twitter.com/palmverse" target='_blank' rel="noreferrer" >
+        {/* <a className="hover:text-[#13D511] text-lg text-[#ECF7FD] transition-all font-semibold cursor-pointer pr-3 absolute z-50 top-7 right-[11%] md:hidden  translate-y-1/2 " href="https://twitter.com/palmverse" target='_blank' rel="noreferrer" >
             <BsTwitter className="text-[#ECF7FD] text-3xl" />
 
-        </a>
+        </a> */}
         <Navbar.Toggle onClick={() => setMobilNav(!mobilNav)} />
         <Navbar.Collapse>
             {

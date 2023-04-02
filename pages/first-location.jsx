@@ -19,13 +19,16 @@ const FirstLocation = () => {
                 </div>
             </section>
            
-            <section className="cta">
+            <section className="cta gray-bg">
                 <div className="pl-container">
                     <div className="cta-text">
                         <h2 className="big-2 w-900">Built on big ideas</h2>
                         <p className="mt-5 lead-1">We are Tripeo, and we believe that putting a great tailored Ai travel search, and easy-to-use web3 wallet at your fingerprint will make your journey stress-free and enjoyable. </p>
                     </div>
-
+                </div>
+            </section>        
+            <section className="cta">
+                <div className="pl-container">
                     <div className="icon-wrap mb-5">
                         <h2 className="big-3">Welcome to the future of hospitality</h2>
                         <p className="lead-2 mt-3">We make it easy to book your next trip directly from your web3 wallet.</p>

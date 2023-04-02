@@ -234,10 +234,8 @@ h4{
   object-fit: contain
 }
 
-
 .icon-boxes .flex-col .img-box {
   position: relative;
-
 }
 
 .icon-boxes .flex-col .img-box:before {
@@ -507,7 +505,7 @@ body .icon-boxes p {
 }
 
 .icon-wrap {
-  margin: 120px 0 60px;
+  margin-bottom:60px;
   text-align: center
 }
 
@@ -539,6 +537,10 @@ body .icon-boxes p {
   margin: 0 20px 30px;
   position: relative;
   cursor: pointer;
+}
+
+.gray-bg {
+  background: #F3F3F3;
 }
 
 .teams-wrap {
@@ -628,7 +630,7 @@ body .icon-boxes p {
   }
 
   .icon-wrap{
-    margin: 50px 0 30px;
+    margin-bottom: 30px;
    }
 
    .who-we-are-section {

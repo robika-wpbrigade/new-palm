@@ -167,7 +167,7 @@ const Hero = () => {
             <div className="flex flex-col items-center justift-center">
               <div className="img-box">
                 <Image
-                  src="/bland/2 (1).png"
+                  src="/bland/lock.png"
                   alt="PHYSICAL NFT HOTEL & HOSTEL"
                   height={156}
                   width={156}
@@ -185,7 +185,7 @@ const Hero = () => {
             <div className="flex flex-col items-center justift-center">
             <div className="img-box">
               <Image
-                src="/bland/3 (1).png"
+                src="/bland/conversion.png"
                 alt="PHYSICAL NFT HOTEL & HOSTEL"
                 height={156}
                 width={156}
@@ -204,7 +204,7 @@ const Hero = () => {
             <div className="flex flex-col items-center justift-center">
               <div className="img-box">
                   <Image
-                    src="/bland/4.png"
+                    src="/bland/membership.png"
                     alt="PHYSICAL NFT HOTEL & HOSTEL"
                     height={156}
                     width={156}

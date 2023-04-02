@@ -6,7 +6,7 @@ const FirstLocation = () => {
             <section className="hero">
                 <div className="pl-container">
                     <div className="hero-text">
-                        <h1 className="big-2 w-900">We wished a better travel booking platform existed</h1>
+                        <h1 className="big-2 w-900 text-[white]">We wished a better travel booking platform existed</h1>
                         <h2 className="big-3 green-hd mt-5">So we made it.</h2>
                     </div>
                 </div>
@@ -15,7 +15,7 @@ const FirstLocation = () => {
             <section className="cta">
                 <div className="pl-container">
                     <div className="cta-text">
-                        <h2 className="big-3 w-900">Built on big ideas</h2>
+                        <h2 className="big-2 w-900">Built on big ideas</h2>
                         <p className="mt-5 lead-1">We are Tripeo, and we believe that putting a great tailored Ai travel search, and easy-to-use web3 wallet at your fingerprint will make your journey stress-free and enjoyable. </p>
                     </div>
 
@@ -45,7 +45,7 @@ const FirstLocation = () => {
                         <div className="flex flex-col items-center justift-center">
                             <div className="img-box">
                                 <Image
-                                    src="/bland/2 (1).png"
+                                    src="/bland/lock.png"
                                     alt="PHYSICAL NFT HOTEL & HOSTEL"
                                     height={156}
                                     width={156}
@@ -62,7 +62,7 @@ const FirstLocation = () => {
                         <div className="flex flex-col items-center justift-center">
                             <div className="img-box">
                                 <Image
-                                    src="/bland/3 (1).png"
+                                    src="/bland/conversion.png"
                                     alt="PHYSICAL NFT HOTEL & HOSTEL"
                                     height={156}
                                     width={156}
@@ -79,7 +79,7 @@ const FirstLocation = () => {
                         <div className="flex flex-col items-center justift-center">
                             <div className="img-box">
                                 <Image
-                                    src="/bland/4.png"
+                                    src="/bland/membership.png"
                                     alt="PHYSICAL NFT HOTEL & HOSTEL"
                                     height={156}
                                     width={156}

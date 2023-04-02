@@ -23,7 +23,7 @@
 
 .text-green_text {
   --tw-text-opacity: 1;
-  color: #addb9b;
+  color: rgb(34 177 76);
 }
 
 ::-webkit-scrollbar-track {
@@ -463,12 +463,12 @@ body .icon-boxes p {
   align-items: center;
   padding: 50px 0;
   border-bottom: 1px solid #eee;
-  background: url(/_next/static/media/hero1.jpg) no-repeat center;
+  background: url(../public/images/hero.jpg) no-repeat center;
   background-size: cover;
 }
 
 .team-hero{
-  background: url(/_next/static/media/hero2.png) no-repeat center;
+  background: url(../public/images/hero2.png) no-repeat center;
   background-size: cover;
   align-items: flex-end;
 }

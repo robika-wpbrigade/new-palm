@@ -468,7 +468,7 @@ body .icon-boxes p {
 }
 
 .hero {
-  min-height: 843px;
+  min-height: 843.297px;
   display: flex;
   align-items: center;
   padding: 70px 0;
@@ -478,6 +478,7 @@ body .icon-boxes p {
 
 .team-hero{
   align-items: flex-end;
+  padding-bottom: 120px;
 }
 
 .team-hero p{
@@ -653,6 +654,10 @@ body .icon-boxes p {
   .hero .big-3 {
     font-size: 40px;
     line-height: 1.1;
+  }
+
+  .hero , .team-hero {
+    padding: 50px 0;
   }
 }
 

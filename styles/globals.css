@@ -57,6 +57,10 @@ h1 ,h2 , h3 , h4 , h5 , h6 , .colored-hd{
 
 /*base*/
 
+.mobile-nav  h3:hover{
+  color: #b391e9 !important
+}
+
 .big-1 {
   font-size: 70px;
   font-weight: 900;

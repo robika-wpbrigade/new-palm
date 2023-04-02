@@ -124,24 +124,6 @@ const Hero = () => {
                 ))}
             </p>
           </div>
-
-
-          <div className="w-screen overflow-x-auto md:hidden">
-            <p className="md:text-[40px]  text-[18px] text-center py-10 font-bold md:w-9/12 text-[#ECF7FD] colored-hd ">
-              {"Welcome to the future of hospitality"
-                .split(" ")
-                .map((word, index) => (
-                  <span key={index}>{`${word} `}.</span>
-                ))}
-            </p>
-            <p className="md:text-[32px]  text-[22px] text-center py-10 font-semibold md:w-9/12 text-[#ECF7FD]  ">
-              {"We make it easy to book your next trip directly from your web3 wallet."
-                .split(" ")
-                .map((word, index) => (
-                  <span key={index}>{`${word} `}.</span>
-                ))}
-            </p>
-          </div>
        
           
 
@@ -331,22 +313,7 @@ const Hero = () => {
               BETA VERSION IS <span className="text-green_text" >LIVE</span>
             </h1>
           </div>
-          <div className="w-screen overflow-x-auto flex flex-col items-center justify-center ">
-            <p className="md:text-[40px]  text-[20px] text-center pt-10 font-bold md:w-9/12 text-[#ECF7FD] colored-hd  ">
-              {"Welcome to the future of hospitality"
-                .split(" ")
-                .map((word, index) => (
-                  <span key={index}>{`${word} `}</span>
-                ))}
-            </p>
-            <p className="md:text-[22px] pt-2 pb-8 mx-4 text-[16px] text-center  font-semibold md:w-9/12 text-[#000]  ">
-              {"We make it easy to book your next trip directly from your web3 wallet."
-                .split(" ")
-                .map((word, index) => (
-                  <span key={index}>{`${word} `}</span>
-                ))}
-            </p>
-          </div>
+ 
 
           <div className="w-screen overflow-x-auto flex flex-col items-center justify-center  ">
             <p className="md:text-[40px]  text-[20px] text-center  font-bold md:w-9/12 text-[#ECF7FD]  colored-hd">

@@ -31,7 +31,7 @@ const Header = ({ showDrop, setShowDrop, mobilNav, setMobilNav }) => {
     return <Navbar
         className="darkbg"
         fluid={true}
-        style={{ fontFamily: "'Exo 2', ' sans- serif'", backgroundColor: '#2A2A29', borderBottom: '1px solid gray', height: '100px', padding: "1rem 0.3rem" }}
+        style={{ fontFamily: "'Exo 2', ' sans- serif'", backgroundColor: '#2A2A29', borderBottom: '1px solid gray', height: '100px', padding: "1rem 20px" }}
     >
         <Navbar.Brand href="/">
             <div className="hidden md:block tab-nav-logo">
@@ -96,57 +96,27 @@ const Header = ({ showDrop, setShowDrop, mobilNav, setMobilNav }) => {
 
 
 
-                <h3 onMouseEnter={() => setShowDrop(true)} className="hover:text-[#13D511] text-lg text-[#ECF7FD] transition-all font-semibold cursor-pointer ">
-                    What We Build
-                </h3>
+                
+                    <Link
 
-                {
-                    showDrop && (
-                        <div className="absolute z-10 top-8 -left-2   bg-dark_bg pr-5 pl-3 pb-3 w-40" onMouseEnter={() => setShowDrop(true)} onMouseLeave={() => setShowDrop(false)}>
-                            <Link
-                                href={'first-location'}
+                    href='/first-location'
 
-                            >
-                                <h3 className="hover:text-[#13D511] text-center text-lg text-[#ECF7FD] transition-all font-semibold cursor-pointer ">
-                                    Web3 Booking
-                                </h3>
-                            </Link>
-                            {/* <Link
-                                href={'/roadmap'}
+                    >
+                    <h3 className="hover:text-[#13D511] text-lg text-[#ECF7FD] transition-all font-semibold cursor-pointer ">
+                    What We Build </h3>
 
-                            >
-                                <h3 className="hover:text-[#13D511] text-center text-lg text-[#ECF7FD] transition-all font-semibold cursor-pointer ">
-                                    Roadmap
-                                </h3>
-                            </Link> */}
+              </Link>
 
-                        </div>
-                    )
-                }
+         
+                
             </div>
             }
 
 
-            <Link
-
-                href='/faq'
-
-            >
-                <h3 className="hover:text-[#13D511] text-lg text-[#ECF7FD] transition-all font-semibold cursor-pointer ">
-                    FAQ
-                </h3>
-
-
-            </Link>
-
             <a className="hover:text-[#13D511] text-lg text-[#ECF7FD] transition-all font-semibold cursor-pointer " rel="noreferrer" href="https://www.book-palmverse.com/" target='_blank'>
                 Book
-
             </a>
-            <a className="hover:text-[#13D511] text-lg text-[#ECF7FD] transition-all font-semibold cursor-pointer pr-3 " href="https://twitter.com/palmverse" target='_blank' rel="noreferrer" >
-                <BsTwitter className="text-[#ECF7FD] text-2xl" />
 
-            </a>
         </Navbar.Collapse>
 
     </Navbar>

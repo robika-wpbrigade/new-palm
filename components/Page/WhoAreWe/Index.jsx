@@ -80,15 +80,13 @@ const WhoWeAre = () => (
               <Image src="/images/team/daniel.png" alt="daniel" width={300} height={300} />
             </div>
             <div className="team-text">
-              <h4>RADU MARICA</h4>
-              <h5>Co-Founder, CEO</h5>
+              <h4>DANIEL RODRIGUEZ MAFFIOLI</h4>
+              <h5>Legal Advisor</h5>
               <a href="https://www.ecija.com" target="_blank" rel="noreferrer">https://www.ecija.com</a>
             </div>
             <div className="hide-text lead-2">
-                <p> Dragos finished his MSc degree in Sustainable Energy Engineering with a focus on sustainable energy building from Aalborg University Denmark and TU Delft Netherland.
-                Founder and CEO of E-commerce companies, involved in the development of several product design projects.
-                Speaker at E-commerce Conference in Miami, invited by the Romanian American Chamber of Commerce.</p>
-                <p>More than 7 years experience in project management and more than 5 years of entrepreneurial expertise, including several projects of building Sustainable Energy Buildings.2 Years of part-time Cryptocurrency trading experience and NFT expertise.
+                <p> Lawyer specializing in IT law, digital policy and data protection at ÉCIJA Centroamérica where he advises companies and organizations in all technology related matters and transactions. Daniel runs  the Privacy and Data Foundation PRIDAT, an NGO that promotes digital privacy and literacy and has been a consultant to the Inter-American Development Bank (IDB) and the government of Costa Rica in the design of a framework for the ethical and responsible use of AI in Costa Rica.</p>
+                <p>Currently an LLM candidate in Technology & IP Law at Duke University, and a Fulbright Scholar.  Daniel holds a Masters degree in Regulated Industries Law from Universidad Carlos III de Madrid (UC3M), and a professional course in Regulation and Data Policy from the London School of Economics (LSE).
                 </p>
             </div>
           </div>
@@ -99,10 +97,6 @@ const WhoWeAre = () => (
 );
 
 export default WhoWeAre;
-
-
-
-
 
 
         

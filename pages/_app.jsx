@@ -17,6 +17,11 @@ const navs = [
     name: 'Who We Are',
     link: '/who-we-are'
   },
+
+  {
+    name: 'what we build',
+    link: '/first-location'
+  },
 ]
 
 function MyApp({ Component, pageProps }) {
@@ -36,7 +41,7 @@ function MyApp({ Component, pageProps }) {
           <>
             {
               mobilNav && (
-                <div className=" pb-6 pt-10  flex flex-col  absolute z-50 right-0 w-screen  top-24 bg-dark_bg h-[91vh] ">
+                <div className=" pb-6 pt-10  flex flex-col  absolute z-50 right-0 w-screen  top-24 bg-dark_bg h-[91vh] mobile-nav ">
 
                   <div className="flex flex-col items-center  justify-center space-y-8 pt-20">
                     {
@@ -53,52 +58,13 @@ function MyApp({ Component, pageProps }) {
                         </Link>
                       ))
                     }
-
+                   
                     <div className="relative">
+                   
+                      <a onClick={() => setMobilNav(false)} className="hover:text-[#13D511] text-2xl text-center text-[#fff] transition-all font-semibold cursor-pointer " href="https://www.book-palmverse.com/" target='_blank' rel="noreferrer">
+                        <h3 className="text-center text-[#fff]"> Book</h3>
 
-
-
-                      <h3 onClick={() => setShowDrop(!showDrop)} onMouseEnter={() => setShowDrop(true)} className="hover:text-[#13D511] text-2xl text-[#ECF7FD] transition-all font-semibold cursor-pointer ">
-                        What We Build
-                      </h3>
-
-                      {
-                        showDrop && (
-                          <div className="bg-dark_bg  pl-3 pb-3 w-40" onMouseEnter={() => setShowDrop(true)} onMouseLeave={() => setShowDrop(false)}>
-                            <Link
-                              href={'first-location'}
-
-                            >
-                              <h3 onClick={() => setMobilNav(false)} className="hover:text-[#13D511] text-xl text-center pt-4  text-[#ECF7FD] transition-all font-semibold cursor-pointer ">
-                                Web3 Booking
-                              </h3>
-                            </Link>
-                            {/* <Link
-                              href={'/roadmap'}
-
-                            >
-                              <h3 onClick={() => setMobilNav(false)} className="hover:text-[#13D511] text-xl text-center py-4 text-[#ECF7FD] transition-all font-semibold cursor-pointer ">
-                                Roadmap
-                              </h3>
-                             </Link> */}
-
-                          </div>
-                        )
-                      }
-                      <Link
-
-                        href='/faq'
-
-                      >
-                        <h3 onClick={() => setMobilNav(false)} className="hover:text-[#13D511] text-2xl text-center py-10 text-[#ECF7FD] transition-all font-semibold cursor-pointer ">
-
-                          FAQ
-                        </h3>
-                      </Link>
-                      <a onClick={() => setMobilNav(false)} className="hover:text-[#13D511] text-2xl text-center text-[#ECF7FD] transition-all font-semibold cursor-pointer " href="https://www.book-palmverse.com/" target='_blank' rel="noreferrer">
-                        <h1 className="text-center"> Book</h1>
-
-                      </a> */
+                      </a> 
                     </div>
 
 

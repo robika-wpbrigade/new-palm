@@ -18,6 +18,7 @@
         rgba(111, 213, 173, 1) 0%,
         rgba(108, 50, 124, 1) 100%);
   }
+
 }
 
 .text-green_text {
@@ -258,9 +259,13 @@ h4{
 }
 
 .cta-section {
-  padding: 30px 20px;
+  padding: 70px 20px;
   background-color: #fff;
   text-align: center;
+}
+
+.cta-section.how-work-sect{
+  background: #F3F3F3;
 }
 
 .cta-section .cta-img {
@@ -428,20 +433,6 @@ body .icon-boxes p {
   padding: 0 15px;
 }
 
-.banner h2 {
-  font-size: 38px;
-}
-
-.cta-section:not(.finding-offer):not(.banner) h2 {
-  font-size: 49px;
-}
-
-.cta-section h3 {
-  font-size: 25px;
-}
-
-
-
 .cta-section.banner{
   padding: 50px 20px 30px
  }
@@ -472,10 +463,21 @@ body .icon-boxes p {
   align-items: center;
   padding: 50px 0;
   border-bottom: 1px solid #eee;
-  background: url(/_next/static/media/hero1.c63a177a.jpg) no-repeat center;
+  background: url(/_next/static/media/hero1.jpg) no-repeat center;
   background-size: cover;
 }
 
+.team-hero{
+  background: url(/_next/static/media/hero2.png) no-repeat center;
+  background-size: cover;
+  align-items: flex-end;
+}
+
+.team-hero p{
+  margin-top: 20px;
+  color: #fff;
+  max-width: 600px;
+}
 .hero .big-2 , .cta .big-2{
   font-size: 62px;
   line-height: 1.1;
@@ -613,17 +615,7 @@ body .icon-boxes p {
   text-decoration: underline;
 }
 
-.team-hero{
-  background: url('../.next/static/media/hero2.png') no-repeat center;
-  background-size: cover;
-  align-items: flex-end;
-}
 
-.team-hero p{
-  margin-top: 20px;
-  color: #fff;
-  max-width: 600px;
-}
 
 @media (max-width:767px){
   .cta {

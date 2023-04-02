@@ -1,6 +1,9 @@
 import Image from "next/image";
 import { useState } from "react";
+
 const WhoWeAre = () => (
+
+
   <>
     <section className="hero team-hero">
       <div className="pl-container">

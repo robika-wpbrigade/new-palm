@@ -614,7 +614,7 @@ body .icon-boxes p {
 }
 
 .team-hero{
-  background: url('../public/images/hero2.png') no-repeat center;
+  background: url('../next/static/media/hero2.png') no-repeat center;
   background-size: cover;
   align-items: flex-end;
 }

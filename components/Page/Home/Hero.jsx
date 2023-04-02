@@ -26,7 +26,7 @@ const Hero = () => {
 
      <div className="cta-section banner" >
       <div className="container">
-          <h2 className="big-1">The AI2 personalized travel experience that you will love</h2>
+          <h2 className="big-1">The AI personalized travel experience that you will love</h2>
       </div>
     </div>
 

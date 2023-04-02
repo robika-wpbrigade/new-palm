@@ -1,8 +1,16 @@
-import Image from "next/image"
+import Image from "next/image";
+import hero from '../public/images/hero.jpg'
+
 const FirstLocation = () => {
     return (
         <>
-            <section className="hero">
+            <section className="hero" style={{zIndex:-1 , position:'relative', width:'100%' , height:'100%'}}>
+                               <Image
+                                    src="/images/hero.jpg"
+                                    alt="what-we-build-hero"
+                                    layout="fill"
+                                    objectFit="cover"
+                                />
                 <div className="pl-container">
                     <div className="hero-text">
                         <h1 className="big-2 w-900 text-[white]">We wished a better travel booking platform existed</h1>

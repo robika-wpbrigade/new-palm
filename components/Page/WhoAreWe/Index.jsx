@@ -2,10 +2,16 @@ import Image from "next/image";
 import { useState } from "react";
 
 const WhoWeAre = () => (
-
+ 
 
   <>
-    <section className="hero team-hero">
+    <section className="hero team-hero"  style={{zIndex:-1 , position:'relative', width:'100%' , height:'100%'}}>
+      <Image
+          src="/images/hero2.png"
+          alt="what-we-build-hero"
+          layout="fill"
+          objectFit="cover"
+      />
       <div className="pl-container">
         <div className="hero-text">
           <h1 className="big-2 w-900 text-[#22b14c]">Meet the Dream Team</h1>

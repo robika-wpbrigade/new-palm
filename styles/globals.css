@@ -338,7 +338,7 @@ nav a:hover {
  } 
 
  .cta-section.finding-offer{
-  padding: 40px 0 20px;
+  padding: 70px 0 20px;
  }
 
  .cta-section.banner{
@@ -373,6 +373,10 @@ body .icon-boxes p {
 }
 
 @media (max-width:767px) {
+
+  .cta-section.finding-offer{
+    padding: 50px 0 20px;
+   }
 
   .zigzag-wrap .container {
     flex-direction: column;

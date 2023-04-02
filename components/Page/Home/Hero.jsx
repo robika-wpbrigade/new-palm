@@ -142,90 +142,13 @@ const Hero = () => {
                 ))}
             </p>
           </div>
-          <div className="icon-boxes flex md:space-y-0  md:py-5 py-10 mx-auto">
-          <div className="flex flex-col items-center justift-center">
-            <div className="img-box">
-
-              <Image
-                src="/bland/search.png"
-                alt="PHYSICAL NFT HOTEL & HOSTEL"
-                height={156}
-                width={156}
-                layout={"fixed"}
-              />
-                            
-            </div>
-
-              <h5 className="text-2xl text-[#ECF7FD] font-bold  md:w-full text-center py-2">
-                Fast Tailored Search
-              </h5>
-              <p className="text-lg text-center">
-                Stable & Fast & Flexible AI travel search
-              </p>
-            </div>
-
-            <div className="flex flex-col items-center justift-center">
-              <div className="img-box">
-                <Image
-                  src="/bland/lock.png"
-                  alt="PHYSICAL NFT HOTEL & HOSTEL"
-                  height={156}
-                  width={156}
-                  layout={"fixed"}
-                />
-                     
-              </div>
-              <h5 className="text-2xl text-[#ECF7FD] font-bold  md:w-full text-center py-2">
-                No Log-ins
-              </h5>
-              <p className="text-lg text-center">
-                Pay with a Web3 wallet.
-              </p>
-            </div>
-            <div className="flex flex-col items-center justift-center">
-            <div className="img-box">
-              <Image
-                src="/bland/conversion.png"
-                alt="PHYSICAL NFT HOTEL & HOSTEL"
-                height={156}
-                width={156}
-                layout={"fixed"}
-              />
-              </div>
-              <h5 className="text-2xl text-[#ECF7FD] font-bold  md:w-full text-center py-2">
-                Cashback Travel Rewards
-              </h5>
-              <p className="text-lg text-center">
-                Earn rewards while travelling
-              </p>
-            </div>
-          
-
-            <div className="flex flex-col items-center justift-center">
-              <div className="img-box">
-                  <Image
-                    src="/bland/membership.png"
-                    alt="PHYSICAL NFT HOTEL & HOSTEL"
-                    height={156}
-                    width={156}
-                  />
-              </div>
-             
-              <h5 className="text-2xl text-[#ECF7FD] font-bold  md:w-full text-center py-2">
-                NFTs As Membership
-              </h5>
-              <p className="text-lg text-center">
-                Verify NFT ownership to apply <br /> discounts
-              </p>
-            </div>
        
-            </div>
           
 
         </div>
 
 
-        <div className="w-screen overflow-x-auto flex flex-col items-center justify-center mt-10 ">
+        <div className="w-screen overflow-x-auto flex flex-col items-center justify-center ">
           <p className="md:text-[40px]  text-[18px] text-center pt-10 font-bold md:w-9/12 colored-hd  ">
             We help properties access new <br /> Web3 customers  & communities
           </p>
@@ -423,82 +346,6 @@ const Hero = () => {
                   <span key={index}>{`${word} `}</span>
                 ))}
             </p>
-          </div>
-
-
-
-          <div className="grid grid-cols-2 icon-boxes  md:w-[80rem]  md:space-y-0 items-center  py-5">
-            <div className="flex flex-col items-center justify-start h-[294px] ">
-            <div className="img-box">
-              <Image
-                src="/bland/search.png"
-                alt="PHYSICAL NFT HOTEL & HOSTEL"
-                height={156}
-                width={156}
-                layout={"fixed"}/>          
-              </div>
-
-              <h5 className="text-2xl text-[#ECF7FD] font-bold  md:w-full text-center py-2">
-                Fast Tailored Search
-              </h5>
-              <p className="text-lg text-center">
-                Stable & Fast & Flexible AI travel search
-              </p>
-            </div>
-
-            <div className="flex flex-col  items-center justify-start h-[294px] ">
-            <div className="img-box">
-                <Image
-                  src="/bland/2 (1).png"
-                  alt="PHYSICAL NFT HOTEL & HOSTEL"
-                  height={156}
-                  width={156}
-                  layout={"fixed"}
-                />
-                     
-              </div>
-              <h5 className="text-2xl text-[#ECF7FD] font-bold  md:w-full text-center py-2">
-                No Log-ins
-              </h5>
-              <p className="text-lg text-center">
-                Pay with a Web3 wallet.
-              </p>
-            </div>
-            <div className="flex flex-col items-center justify-start h-[350px]">
-            <div className="img-box">
-              <Image
-                src="/bland/3 (1).png"
-                alt="PHYSICAL NFT HOTEL & HOSTEL"
-                height={156}
-                width={156}
-                layout={"fixed"}
-              />
-              </div>
-              <h5 className="text-2xl text-[#ECF7FD] font-bold  md:w-full text-center py-2">
-                Cashback Travel Rewards
-              </h5>
-              <p className="text-lg text-center">
-                Earn rewards while travelling
-              </p>
-            </div>
-            <div className="flex flex-col items-center justify-start h-[350px]">
-            <div className="img-box">
-                  <Image
-                    src="/bland/4.png"
-                    alt="PHYSICAL NFT HOTEL & HOSTEL"
-                    height={156}
-                    width={156}
-                  />
-              </div>
-             
-              <h5 className="text-2xl text-[#ECF7FD] font-bold  md:w-full text-center py-2">
-                NFTs As Membership
-              </h5>
-              <p className="text-lg text-center">
-                Verify NFT ownership to apply <br /> discounts
-              </p>
-            </div>
-
           </div>
 
           <div className="w-screen overflow-x-auto flex flex-col items-center justify-center  ">

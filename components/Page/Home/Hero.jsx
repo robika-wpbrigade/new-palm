@@ -65,13 +65,11 @@ const Hero = () => {
     <div className="cta-section finding-offer">
       <div className="container">
           <h2 className="big-2">Finding offers</h2>
-
           <div className="cta-img">
                   <Image
                     src="/images/findingoffers.jpg"
                     alt="laptop palverse"
-                    width={550}
-                    height={370}
+                   layout="fill"
                   />
           </div>
       </div>

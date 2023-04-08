@@ -26,7 +26,7 @@ const Hero = () => {
 
      <div className="cta-section banner" >
       <div className="container">
-          <h2 className="big-1">The AI personalized travel experience that you will love</h2>
+          <h2 className="big-1">Explore the world like never before with Tripeo's AI travel assistant!</h2>
       </div>
     </div>
 
@@ -41,8 +41,8 @@ const Hero = () => {
                   />
           </div>
           <div className="col-content">
-                <h2 className="big-3">Just search in a simple natural language for your next travel experience.</h2>
-                <p className="lead-1">The AI travel assistant will recommend you personalized destinations making it a unique journey.</p> 
+                <h2 className="big-3">Seamless travel adventures await with Tripeo's All-in-one AI travel app! Plan, book, and travel with ease for a smooth journey.</h2>
+                <p className="lead-1">Join Gen Y/Z travelers for personalized destination recommendations based on your search preferences.</p> 
           </div>
       </div>
     </div>
